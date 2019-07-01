@@ -1,4 +1,4 @@
-.admin-container, .container {max-width: 1230px;width: 100%;}
+thh.admin-container, .container {max-width: 1230px;width: 100%;}
 body, html, pre {color: #292a2c;word-wrap: break-word;}
 #content [data-valign=center] .container .spacer-column, #content [data-valign=top] .container .spacer-column, #content [data-valign=bottom] .container .spacer-column, #content-holder [data-valign=center] .container .spacer-column, #content-holder [data-valign=top] .container .spacer-column, #content-holder [data-valign=bottom] .container .spacer-column {align-self: stretch;}
 #superContainer, .pswp {-ms-touch-action: none;}
