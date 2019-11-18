@@ -71,6 +71,40 @@ var _wpmejsSettings = {"pluginPath":"\/rwh-1\/wp-includes\/js\/mediaelement\/","
 			max-width: 100%;
 		}
 			
+		.gear {
+		  animation: rotation 8s infinite linear;
+		}
+		@keyframes rotation {
+		    from {
+		        transform: rotate(0deg);
+		    }
+		    to {
+		        transform: rotate(360deg);
+		    }
+		}
+		.logo {
+			width: 200px;
+			height: 200px;
+		}
+		.logoAni {
+			stroke-dasharray: 21930;
+			stroke-dashoffset: 21930;
+			animation: dash 4s ease-in forwards;
+		}
+
+		@keyframes dash {
+			from {
+				stroke-dashoffset: 21930;
+				stroke-width: 23.03;
+				transform:rotate(300deg);
+			}
+			to {
+				stroke-dashoffset: 18000;
+				stroke-width: 23.01;
+				transform:rotate(360deg);
+			}
+		}
+		
 		</style>
 	
 		<style type="text/css" id="11-post-css">
@@ -140,17 +174,30 @@ var _wpmejsSettings = {"pluginPath":"\/rwh-1\/wp-includes\/js\/mediaelement\/","
 			<div id="content-11" class="content-container active-content ">
 				<div class="transition-wrap">
 					<div class="sections">
-						
+					
 					<section id="section_ai64j9qrs" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single">
 						
 						<div class="container">
+								<svg class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2048.674 2048.674">
+									<g id="document" transform="matrix(1,0,0,1,1024.0,1024.0)">
+										<g>
+										 <path class="logoAni" d="M898.605,863.352 L-874.752,179.884 L898.605,-502.209" stroke-width="32.01" fill="none" stroke="#8a8a8a" stroke-linecap="square" />
+										 <path class="logoAni" d="M895.226,-485.918 L-92.0959,595.4 L-35.9797,-867.435" fill="none" stroke="#8a8a8a" stroke-linecap="square" stroke-width="32.01"  />
+										 
+										 </g>
+									</g>
+									</svg>
 						<div id="row_7k4vf2yha" class="row"><div id="column_g8ci5zw6u" class="column" data-xl-width="12">
 					<div class="content-wrapper">
 						
-				<div id="content_wej3ocrdy" class="column-content" data-module="paragraph">
-					<div class="is-content has-xs"><div data-content-for="xl"><p style="line-height: 0.133333vm;" data-mce-style="line-height: 0.133333rem;">Hey there, I am a multi-disciplinary programmer who focuses on the intersection between Art and Technology.</p><p style="font-size: 1vm; line-height: 0.133333vm;" data-mce-style="font-size: 1rem; line-height: 0.133333rem;">I specialize in Artificial Intelligence, Virtual and Augmented Reality, Film-making and advanced Origami.</p></div><div data-content-for="xs"><p style="line-height: 0.22222vm; font-size: 0.888889vm;" data-mce-style="line-height: 0.22222vm; font-size: 0.888889vm;">Hey there, I am a mult-disciplinary programmer who focuses on the intersection between Art and Technology. I specialize in Artificial Intelligence, Virtual and Augmented Reality, Film-making and advanced Origami.</p></div></div>
-				</div>
-			
+						<div id="content_wej3ocrdy" class="column-content" data-module="paragraph">  
+
+							<div class="is-content has-xs"><div data-content-for="xl">
+								<p style="line-height: 55.0133333vm;" data-mce-style="line-height: 55.0133333vm;">Hey there, I am a multi-disciplinary programmer who focuses on the intersection between Art and Technology.</p>
+								<p style="font-size: 1vm; line-height:55.0133333vm;" data-mce-style="font-size: 1vm; line-height: 55.01vm ;">I specialize in Artificial Intelligence, Virtual and Augmented Reality, Film-making and advanced Origami.</p>
+							</div>
+							<div data-content-for="xs"><p style="line-height:55.01vm; font-size: 0.888889vm;" data-mce-style="line-height: 55.01vm; font-size: 0.888889vm;">Hey there, I am a mult-disciplinary programmer who focuses on the intersection between Art and Technology. I specialize in Artificial Intelligence, Virtual and Augmented Reality, Film-making and advanced Origami.</p></div></div>
+						</div>
 					</div>
 				</div></div>
 						</div>
@@ -219,23 +266,23 @@ var _wpmejsSettings = {"pluginPath":"\/rwh-1\/wp-includes\/js\/mediaelement\/","
 			
 			<div class="thumb-inner" style="border-radius: 10px;">
 					
-			<div class="thumb-hover">
+					<div class="thumb-hover">
+						
+						<div class="thumb-hover-meta bottom-left show-category move-bottom">
+							<p>
+								<span class="title" data-font="regular">Microsoft Artificial Intelligence Internship</span><br>
+								<span class="category" data-font="regular">Developed in Python using Tensorflow</span>
+							</p>			
+						</div>
+					</div>
 				
-				<div class="thumb-hover-meta bottom-left show-category move-bottom">
-					<p>
-						<span class="title" data-font="regular">Microsoft Artificial Intelligence Internship</span><br>
-						<span class="category" data-font="regular">Developed in Python using Tensorflow</span>
-					</p>			
-				</div>
-			</div>
-		
-					
-			<img src="wp-content/uploads/2019/07/CVMicrosoft.gif" width="300" height="221" alt="Microsoft Artificial Intelligence Internship">
-			<!--<div><video width="300" height="221" autoplay loop>
-				<source src="./wp-content/uploads/2019/07/CVMicrosoft.webm" type="video/webm">
-				<source src="wp-content/uploads/2019/07/CVMicrosoft.mp4" type="video/mp4">
-				Browser does not support video
-			</video></div>-->
+							
+					<img src="wp-content/uploads/2019/07/CVMicrosoft.gif" width="300" height="221" alt="Microsoft Artificial Intelligence Internship">
+					<!-- <video width="300" height="221" autoplay loop>
+						<source src="./wp-content/uploads/2019/07/CVMicrosoft.webm" type="video/webm">
+						<source src="wp-content/uploads/2019/07/CVMicrosoft.mp4" type="video/mp4">
+						Browser does not support video
+					</video> -->
 			
 			</div></a><a class="pg-title-link" href="project/microsoft-artificial-intelligence-internship" title="Microsoft Artificial Intelligence Internship">
 					<div class="post-title regular">Microsoft Artificial Intelligence Internship<span class="regular">Devised, developed and designed a novel self-learning Computer Vision AI that uses Deep Learning with real-time human-AI interaction. Design patent pending.</span></div>
